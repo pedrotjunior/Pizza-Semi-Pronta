@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>-111</x>
+      <y>0</y>
+      <width>964</width>
+      <height>88</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QWidget" name="widget" native="true">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>900</width>
+         <height>60</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>60</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: #5D4037;
+border-bottom: 3px solid #8D6E63;</string>
+       </property>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="5" column="2">
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QLabel" name="EntregadaPizza">
+            <property name="font">
+             <font>
+              <pointsize>8</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLabel {
+    color: white;
+    background-color: transparent;
+    padding: 10px 20px;
+    margin: 0px;
+    border: none;
+}
+
+QLabel:hover {
+    color: #FF8A65;           /* laranja claro bem bonito */
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}</string>
+            </property>
+            <property name="text">
+             <string>| Entrega das Pizzas</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="CadastrarIngresso">
+            <property name="font">
+             <font>
+              <pointsize>8</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLabel {
+    color: white;
+    background-color: transparent;
+    padding: 10px 20px;
+    margin: 0px;
+    border: none;
+}
+
+QLabel:hover {
+    color: #FF8A65;           /* laranja claro bem bonito */
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}</string>
+            </property>
+            <property name="text">
+             <string>| Cadastrar Ingresso</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="CadastrarPizza">
+            <property name="font">
+             <font>
+              <pointsize>8</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLabel {
+    color: white;
+    background-color: transparent;
+    padding: 10px 20px;
+    margin: 0px;
+    border: none;
+}
+
+QLabel:hover {
+    color: #FF8A65;           /* laranja claro bem bonito */
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}</string>
+            </property>
+            <property name="text">
+             <string>| Cadastrar Pizza</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="CadastrarIngredientes">
+            <property name="font">
+             <font>
+              <pointsize>8</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLabel {
+    color: white;
+    background-color: transparent;
+    padding: 10px 20px;
+    margin: 0px;
+    border: none;
+}
+
+QLabel:hover {
+    color: #FF8A65;           /* laranja claro bem bonito */
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}</string>
+            </property>
+            <property name="text">
+             <string>| Cadastrar Ingredientes |</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="Financeiro">
+            <property name="font">
+             <font>
+              <pointsize>8</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLabel {
+    color: white;
+    background-color: transparent;
+    padding: 10px 20px;
+    margin: 0px;
+    border: none;
+}
+
+QLabel:hover {
+    color: #FF8A65;           /* laranja claro bem bonito */
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Financeiro |</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="Configuracoes">
+            <property name="font">
+             <font>
+              <pointsize>8</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLabel {
+    color: white;
+    background-color: transparent;
+    padding: 10px 20px;
+    margin: 0px;
+    border: none;
+}
+
+QLabel:hover {
+    color: #FF8A65;           /* laranja claro bem bonito */
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}</string>
+            </property>
+            <property name="text">
+             <string>Configurações</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="label">
+          <property name="font">
+           <font>
+            <pointsize>8</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: #FFCCBC;
+background-color: rgba(255, 255, 255, 0.15);
+border-radius: 4px;</string>
+          </property>
+          <property name="text">
+           <string>Inicio</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
